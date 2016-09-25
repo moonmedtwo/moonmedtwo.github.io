@@ -1,0 +1,138 @@
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.lefthead{
+  background-image: url("../img/blue-background-sky-beautiful-textureimages.jpg");
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 2px 3px 3px #000000;
+  border-bottom-left-radius: 25px;
+}
+.lefthead h2{
+  color: white;
+  font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+}
+.righthead{
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+}
+.centerhead{
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  text-shadow: 2px 1px 1px #000;
+}
+.centerhead h2{
+    color: blue;
+ font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+}
+.logo{
+margin-top:5px;
+  width: 90px;
+  height: 90px;
+}
+.jumbotron{
+  background-size: cover;
+  display: flex;
+}
+.jumbotron .container{
+  padding-top: 40px;
+}
+nav{
+background-color: rgba(0,0,0,0.8) !important;
+z-index: 1000;
+}
+nav ul{
+  padding-top: 4px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-weight: bold;
+}
+.heading{
+     position:relative;
+}
+#top{
+  height: 50px;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+  background-color: rgba(12,150,255,.7);
+  color: white;
+ }
+.table-striped>tbody>tr:nth-child(even)>td, 
+.table-striped>tbody>tr:nth-child(even)>th {
+  background-color: white;
+  color:  	#396abd;
+ }
+.logolichsu{
+  margin-top: 25px;
+    margin-bottom:30px;
+  width: 150px;
+  height: 150px;
+
+}
+ .lichsu{
+  background-image: url(" ../img/lightyellow.jpg ");
+  background-size: cover;
+     border-radius:20px;
+ }
+.intro{
+  background-image: url("http://dantri4.vcmedia.vn/0cccccccccccccp9naPwZGJZhKf7vl/Image/2015/07/bkNew-Image-4a8b6.JPG");
+  background-size: cover;
+  height: 1000px;
+}
+#sline{
+  margin-top: 5px;
+  text-align: center;
+  height: 20px;
+  justify-content: center;
+  font-family: Papyrus, fantasy;
+  background-image: url("../img/blue-background-sky-beautiful-textureimages.jpg");
+  font-style: oblique;
+  font-size: 150%;
+  font-weight: 900;
+  padding-top:20px;
+}
+.history #sline
+{
+    color:#ffff00;
+}
+.fac #sline
+{
+    color:snow;
+}
+.navbar-nav > li >.dropdown-menu{
+  background-color:rgba(0,0,0,0.8);
+  color:white;
+}
+.navbar-nav > li > .dropdown-menu a{ color: white; }
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {color:black;}
+
+
+
+.carouselimg {
+    width:auto;
+    height:850px;
+    max-height:850px;
+}
+
+.history {
+    background-color:lightgoldenrodyellow;
+}
+
+#brand {
+    padding:5px;
+    background-color:white;
+}
+
+#roundabout {
+    margin-top:50px;
+}
+#roundabout li{
+    list-style-type:none;
+}
